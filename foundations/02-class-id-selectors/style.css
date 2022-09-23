@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+#two {
+    font-size: 30px;
+    color: #0000ff;
+}
+
+#four {
+    font-weight: bolder;
+    background-color: #00ff00;
+    font-size: 22px;
+}
+
+.gen {
+    background-color: pink;
+}
+
+.xtra {
+    font-size: 22px;
+}
