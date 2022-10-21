@@ -1,0 +1,20 @@
+p { 
+    background-color: hsla(333, 79%, 82%, 1);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#two {
+    color: hsl(225, 79%, 48%);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#three {
+    font-size: 24px;
+}
+
+#four {
+    background-color: hsla(141, 71%, 67%, 1);
+    font-size: 24px;
+    font-weight: bold;
+}
