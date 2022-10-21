@@ -5,7 +5,45 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
+.header,
+.footer,
+.content,
+ul {
+  display: flex; 
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+.content {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 
 img {
   width: 600px;
